@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="10dp"
+    app:cardMaxElevation="6dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/ivSim"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvSim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="item 01"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
